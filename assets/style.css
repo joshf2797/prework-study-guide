@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .header,
 .footer {
     width: 100%;
@@ -26,7 +30,7 @@
 }
 .card {
     border-style: solid;
-    border-color: gray;
+    border-color: rgba(85, 30, 137, 0.758);
     border-width: 5px;
     margin: 40px auto;
     box-shadow: 5px 10px #888888;
