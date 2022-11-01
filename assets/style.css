@@ -1,4 +1,12 @@
-.header,
+.header {
+    background-image: url(https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/Cities/Sedona-PeachySky_web_eb839514699e3a70decaa4cb75bcd976.jpg);
+    background-position: center;
+    height: 150px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .footer {
     width: 100%;
     height: 120px;
@@ -8,6 +16,8 @@
 .h1,
 .h2 {
     text-align: center;
+    margin: 0;
+    padding-top: 20px;
 }
 .image {
         display: block;
