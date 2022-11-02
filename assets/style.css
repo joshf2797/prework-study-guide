@@ -46,3 +46,6 @@
     box-shadow: 5px 10px #888888;
     width: 80%;
 }
+span {
+    font-weight: bold;
+}
